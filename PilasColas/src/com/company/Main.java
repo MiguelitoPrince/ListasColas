@@ -60,6 +60,8 @@ public class Main {
 
         //---------------------------------------------------------------------------------------
 
+
+        /*
         Cola cola = new Cola();
         System.out.println(cola.estavacio());
 
@@ -71,6 +73,23 @@ public class Main {
         cola.eliminarInicio();
         cola.eliminarInicio();
         cola.mostrar();
+        */
+ 
+
+
+        Pilas pilas = new Pilas();
+        System.out.println(pilas.estavacio());
+
+        for(int i = 1; i<= 5; i++){
+            pilas.insertar(i);
+        }
+        pilas.mostrar();
+
+        pilas.elimar();
+        pilas.elimar();
+        pilas.elimar();
+        pilas.mostrar();
+
 
     }
 

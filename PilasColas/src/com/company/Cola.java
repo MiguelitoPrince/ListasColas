@@ -2,7 +2,7 @@ package com.company;
 import lsd.Lista;
 import lsd.Nodo;
 
-public class Cola extends Lista {
+public abstract class Cola extends Lista {
     @Override
     public void insertar(Object dato){
         if(estavacio()){
@@ -18,4 +18,5 @@ public class Cola extends Lista {
         }
     }
 
+    public abstract void elimar();
 }
